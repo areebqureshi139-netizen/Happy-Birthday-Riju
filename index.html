@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Riju</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="bg-music" src="./music/bg-music.mp3.mp3" loop preload="auto"></audio>
+    <div id="musicContainer"></div>
+
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1 class="hero-text">Happy Birthday Riju ❤️</h1>
+    <canvas id="hearts"></canvas>
+</section>
+
+<!-- Wish Section -->
+
+<section class="wish">
+    <p id="typing-text"></p>
+</section>
+
+
+<!-- Gallery Section -->
+
+<section class="gallery">
+    <h2>The Reason Behind My Smile 😊❤️</h2>
+    <div class="gallery-grid">
+        <img src="./images/1.jpg" alt="Her Picture">
+        <img src="./images/2.jpg" alt="Her Picture">
+        <img src="./images/3.jpg" alt="Her Picture">
+        <img src="./images/4.jpg" alt="Her Picture">
+        <img src="./images/5.jpg" alt="Her Picture">
+        <img src="./images/6.jpg" alt="Her Picture">
+    </div>
+</section>
+
+<!-- Video Section -->
+
+<section class="videos">
+    <h2>Captured Perfection 🎥❤️</h2>
+    <div class="video-grid">
+        <video src="./videos/1.mp4" controls></video>
+        <video src="./videos/2.mp4" controls></video>
+        <video src="./videos/3.mp4" controls></video>
+        <video src="./videos/4.mp4" controls></video>
+        <video src="./videos/5.mp4" controls></video>
+        <video src="./videos/6.mp4" controls></video>
+    </div>
+</section> 
+
+<!-- Gift Section -->
+ <section class="gift">
+    <div class="gift-box" onclick="openGift()">
+       Click to Open 🎁
+    </div>
+    <div id="gift-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeGift()">&times;</span>
+            <img src="./images/uss.jpg" alt="Our Picture">
+            <p>This moment will always stay in my heart, the day we met again after 7 years ❤️</p>
+        </div>
+    </div>
+ </section>
+
+ <script src="./js/script.js"></script>
+</body>
+</html>
